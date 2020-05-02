@@ -56,4 +56,9 @@ Jai Done
 kumar changes
 >>>>>>> branch 'master' of https://github.com/minakshiabap/fiorilikeapp.git
 sekhar change
+<<<<<<< HEAD
 >>>>>>> 1ab0e5d67172ae1efbe34f8db4377a7b6f52d690
+=======
+================
+Hitesh Changes
+>>>>>>> branch 'master' of https://github.com/minakshiabap/fiorilikeapp.git
