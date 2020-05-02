@@ -1,0 +1,56 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="cap.fin.ar.controller.View2">
+	<Page title="View 2" navButtonPress="onBack" showNavButton="true">
+		<content>
+			<!--<Button text="Back" press="onBack"/>-->
+			<ObjectHeader id="wow" title="{NAME}" 
+							intro="{DESCRIPTION}" number="{PRICE}" numberUnit="{CURRENCY_CODE}">
+				<attributes>
+					<ObjectAttribute title="type" text="{PRODUCT_ID}"></ObjectAttribute>
+					<ObjectAttribute title="available?" text="{DIM_UNIT}" ></ObjectAttribute>
+				</attributes>
+			</ObjectHeader>
+			<IconTabBar>
+				<items>
+					<IconTabFilter icon="sap-icon://warning" text="More Data">
+						<content>
+							<core:Fragment fragmentName="cap.fin.ar.fragments.AdditionalInfo" type="XML"></core:Fragment>
+						</content>
+					</IconTabFilter>
+					<IconTabFilter icon="sap-icon://supplier" text="Suppliers">
+						<content>
+							<core:Fragment fragmentName="cap.fin.ar.fragments.SuppTable" type="XML"></core:Fragment>
+						</content>
+					</IconTabFilter>
+					<IconTabFilter icon="sap-icon://home" text="City">
+						<content>
+							<Select items="{/cities}">
+								<items>
+									<core:Item text="{cityname}" key="{cityname}"></core:Item>
+								</items>
+							</Select>
+							<ComboBox items="{/cities}">
+								<items>
+									<core:Item text="{cityname}" key="{cityname}"></core:Item>
+								</items>
+							</ComboBox>
+							<MultiComboBox items="{/cities}">
+								<items>
+									<core:Item text="{cityname}" key="{cityname}"></core:Item>
+								</items>
+							</MultiComboBox>
+						</content>
+					</IconTabFilter>
+					
+				</items>
+			</IconTabBar>
+		</content>
+		<footer>
+			<OverflowToolbar>
+				<ToolbarSpacer />
+				<Button text="Like" type="Accept"></Button>
+				<Button text="Dislike" type="Reject"></Button>
+				<Button tooltip="delete this product" icon="sap-icon://delete" press="onDelete"></Button>
+			</OverflowToolbar>
+		</footer>
+	</Page>
+</mvc:View>

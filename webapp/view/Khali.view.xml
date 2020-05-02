@@ -1,0 +1,6 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="cap.fin.ar.controller.Khali"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+		<Page title="Yeh hai mera Empty View">
+			<content></content>
+		</Page>
+</mvc:View>

@@ -1,0 +1,4 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="cap.fin.ar.controller.OnSame"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Text text="this is my world of fiori and i am the game"></Text>
+</mvc:View>
