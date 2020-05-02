@@ -20,4 +20,9 @@ Minakshi makes a change
 New kgksap
 Ravi changs 2nd May
 Indan's change to a file
+<<<<<<< HEAD
 >>>>>>> branch 'master' of https://github.com/minakshiabap/fiorilikeapp.git
+=======
+kumar changes
+>>>>>>> branch 'master' of https://github.com/minakshiabap/fiorilikeapp.git
+sekhar change
