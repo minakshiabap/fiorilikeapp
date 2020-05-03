@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="ZMAR_2020_SRV" xml:lang="en" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="Product" m:HasStream="true" sap:content-version="1">
+				<Key><PropertyRef Name="PRODUCT_ID"/></Key><Property Name="PRODUCT_ID" Type="Edm.String" Nullable="false" sap:unicode="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="TYPE_CODE" Type="Edm.String" Nullable="false" sap:unicode="false" sap:sortable="false" sap:filterable="false"/><Property Name="CATEGORY" Type="Edm.String" Nullable="false" MaxLength="80" sap:unicode="false" sap:sortable="false"/><Property Name="NAME" Type="Edm.String" Nullable="false" sap:unicode="false" sap:filterable="false"/><Property Name="DESCRIPTION" Type="Edm.String" sap:unicode="false" sap:sortable="false" sap:filterable="false"/><Property Name="SUPPLIER_ID" Type="Edm.String" Nullable="false" sap:unicode="false" sap:sortable="false" sap:filterable="false"/><Property Name="PRICE" Type="Edm.Decimal" Nullable="false" Precision="10" Scale="2" sap:unicode="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="CURRENCY_CODE" Type="Edm.String" Nullable="false" sap:unicode="false" sap:sortable="false" sap:filterable="false"/><Property Name="DIM_UNIT" Type="Edm.String" Nullable="false" sap:unicode="false" sap:sortable="false" sap:filterable="false"/><Property Name="PRODUCT_PIC_URL" Type="Edm.String" Nullable="false" sap:unicode="false" sap:sortable="false" sap:filterable="false"/><Property Name="MIME_TYPE" Type="Edm.String" Nullable="false" sap:unicode="false" sap:sortable="false" sap:filterable="false"/><NavigationProperty Name="ToSupplier" Relationship="ZMAR_2020_SRV.Asso_Product_Supplier" FromRole="FromRole_Asso_Product_Supplier"
+					ToRole="ToRole_Asso_Product_Supplier"/></EntityType>
+			<EntityType Name="Supplier" sap:content-version="1">
+				<Key><PropertyRef Name="BP_ID"/></Key><Property Name="BP_ID" Type="Edm.String" Nullable="false" sap:unicode="false" sap:updatable="false"/><Property Name="BP_ROLE" Type="Edm.String" sap:unicode="false"/><Property Name="EMAIL_ADDRESS" Type="Edm.String" sap:unicode="false"/><Property Name="WEB_ADDRESS" Type="Edm.String" sap:unicode="false"/><Property Name="COMPANY_NAME" Type="Edm.String" Nullable="false" sap:unicode="false"/><Property Name="CURRENCY_CODE" Type="Edm.String" sap:unicode="false"/><Property Name="CITY" Type="Edm.String" sap:unicode="false"/><Property Name="POSTAL_CODE" Type="Edm.String" sap:unicode="false"/><Property Name="STREET" Type="Edm.String" sap:unicode="false"/><Property Name="BUILDING" Type="Edm.String" sap:unicode="false"/><Property Name="COUNTRY" Type="Edm.String" sap:unicode="false"/></EntityType>
+			<Association Name="Asso_Product_Supplier" sap:content-version="1"><End Type="ZMAR_2020_SRV.Product" Multiplicity="1" Role="FromRole_Asso_Product_Supplier"/><End Type="ZMAR_2020_SRV.Supplier" Multiplicity="1" Role="ToRole_Asso_Product_Supplier"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Asso_Product_Supplier"><PropertyRef Name="PRODUCT_ID"/></Principal>
+					<Dependent Role="ToRole_Asso_Product_Supplier"><PropertyRef Name="BP_ID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<EntityContainer Name="ZMAR_2020_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx"><EntitySet Name="ProductSet" EntityType="ZMAR_2020_SRV.Product" sap:creatable="false" sap:updatable="false" sap:deletable="false"
+				sap:pageable="false" sap:addressable="false" sap:content-version="1"/><EntitySet Name="SupplierSet" EntityType="ZMAR_2020_SRV.Supplier" sap:creatable="false" sap:updatable="false" sap:deletable="false"
+				sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+				<AssociationSet Name="Asso_Product_SupplierSet" Association="ZMAR_2020_SRV.Asso_Product_Supplier" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="ProductSet" Role="FromRole_Asso_Product_Supplier"/><End EntitySet="SupplierSet" Role="ToRole_Asso_Product_Supplier"/></AssociationSet>
+				<FunctionImport Name="GetMostExpensive" ReturnType="ZMAR_2020_SRV.Product" EntitySet="ProductSet" m:HttpMethod="GET"><Parameter Name="I_CATEGORY" Type="Edm.String" Mode="In"/></FunctionImport>
+			</EntityContainer><atom:link rel="self"
+				href="https://webidetesting3379162-p2001861284trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/sap/ZMAR_2020_SRV/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom"/><atom:link rel="latest-version"
+				href="https://webidetesting3379162-p2001861284trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/sap/ZMAR_2020_SRV/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom"/></Schema>
+	</edmx:DataServices>
+</edmx:Edmx>
