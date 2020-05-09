@@ -1,8 +1,9 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageBox",
-	"sap/m/MessageToast"
-], function(Controller, MessageBox, MessageToast) {
+	"sap/m/MessageToast",
+	"cap/fin/ar/util/formatter"
+], function(Controller, MessageBox, MessageToast, formatter) {
 	"use strict";
 
 	return Controller.extend("cap.fin.ar.controller.View1", {
@@ -12,6 +13,7 @@ sap.ui.define([
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 		 * @memberOf cap.fin.ar.view.View1
 		 */
+		formatter:formatter,
 		onInit: function() {
 			this.oRouter = this.getOwnerComponent().getRouter();
 			this.oRouter.attachRoutePatternMatched(this.herculis, this);

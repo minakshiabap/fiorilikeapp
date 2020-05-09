@@ -9,7 +9,10 @@
 			<SearchField id="mySearch" search="onSearch"/>
 			<List id="idLedo" items="{     path: '/ProductSet'    }" mode="SingleSelectMaster" growing="true" growingThreshold="10" selectionChange="onItemPress" delete="onDelete" itemPress="onItemPress" growingScrollToLoad="true">
 				<items>
-					<ObjectListItem title="{PRODUCT_ID}" intro="{NAME}" number="{PRICE}" numberUnit="{CURRENCY_CODE}">
+					<ObjectListItem title="{PRODUCT_ID}" intro="{NAME}" 
+					number="{parts: [
+									{path: 'PRICE'},{path: 'CURRENCY_CODE'}
+					], formatter: '.formatter.currencyFormat'}" numberUnit="{CURRENCY_CODE}">
 						<attributes>
 							<ObjectAttribute title="Category" value="{CATEGORY}" text="{CATEGORY}"></ObjectAttribute>
 						</attributes>
