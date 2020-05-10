@@ -84,7 +84,7 @@ sap.ui.define([
 				
 			}else{
 				//Step 4: Create a new filter object
-				var oFilter = new sap.ui.model.Filter("CATEGORY",
+				var oFilter = new sap.ui.model.Filter("PRODUCT_ID",
 				sap.ui.model.FilterOperator.EQ, sVal);
 				// var oFilter2 = new sap.ui.model.Filter("type", 
 				// sap.ui.model.FilterOperator.Contains, sVal);
