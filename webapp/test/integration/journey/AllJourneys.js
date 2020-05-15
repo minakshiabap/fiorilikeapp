@@ -6,6 +6,6 @@ function (MasterJourney, Arrangement) {
 			viewNamespace: 'cap.fin.ar.view',
 			autoWait: true
 		});
-		QUnit.start();
+		
 		
 });

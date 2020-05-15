@@ -4,11 +4,11 @@ sap.ui.define([
 		"use strict";
 		return Opa5.extend("cap.fin.ar.test.integration.arrangement.arrangements",{
 			startAnubhavApp: function(){
-				return this.iStartMyAppInAFrame('../runAppMockServer.html');
+				return this.iStartMyAppInAFrame('../runAppMockServer.html#AnubhavTraining-lookup');
 			},
 			
 			stopMyApp: function(){
-				return this.iTeardownMyApp('../../runAppMockServer.html');
+				return this.iTeardownMyApp('../runAppMockServer.html');
 			}
 		});
 		

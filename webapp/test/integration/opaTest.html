@@ -9,8 +9,7 @@
 		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
 		data-sap-ui-resourceroots='{
 			"cap.fin.ar": "../../"
-		}'
-		data-sap-ui-async="true">
+		}'>
 	</script>
 
 	<link rel="stylesheet" type="text/css" href="https://openui5.hana.ondemand.com/resources/sap/ui/thirdparty/qunit-2.css">
@@ -21,7 +20,7 @@
 		sap.ui.getCore().attachInit(function(){
 			//by now at least UI5 framework and its depencies are load
 			sap.ui.require(["cap/fin/ar/test/integration/journey/AllJourneys"],function(){
-				
+				QUnit.start();
 			});
 		});
 	</script>

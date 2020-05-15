@@ -1,27 +1,61 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<script src="https://sapui5.hana.ondemand.com/1.70.0/resources/sap-ui-core.js"
-			    data-sap-ui-libs="sap.m"
-			    data-sap-ui-theme="sap_belize"
-			    data-sap-ui-resourceRoots='{
-			    	"cap.fin.ar":"../"
-			    }'
-			    data-sap-ui-bindingSyntax="complex">
-		</script>
-		<script>
-			sap.ui.require(["cap/fin/ar/localService/mockserver"], 
-				function(dg){
-					dg.anubhavMimicData();
-					var oCompContainer = new sap.ui.core.ComponentContainer({
-						name: 'cap.fin.ar'
-					});
-					oCompContainer.placeAt("content");
-			});
-			
-		</script>
+		<script type="text/javascript">
+				window["sap-ushell-config"] = {
+					defaultRenderer : "fiori2",
+					renderers: {
+						fiori2: {
+							componentData: {
+								config: {
+									search: "hidden"
+								}
+							}
+						}
+					},
+					applications: {
+						"AnubhavTraining-lookup": {
+							additionalInformation: 'SAPUI5.Component=cap.fin.ar',
+							applicationType: "URL",
+							url : '../',
+							title: "Product App",
+							description: "anubhavtrainings.com"
+						}
+					}
+				};
+			</script>
+		
+		<script src="/test-resources/sap/ushell/bootstrap/sandbox.js"></script>
+        <title>Fiori Sandbox Demo</title>
 
+		<!-- Bootstrap the UI5 core library -->
+		<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m,sap.ui.table, sap.ui.layout,sap.ushell"
+				data-sap-ui-theme="sap_belize"
+				data-sap-ui-resourceroots='{
+					"cap.fin.ar" : "../"
+				}'
+				data-sap-ui-xx-bindingSyntax="complex"
+		></script>
+
+
+		<script>
+		///make sure that our code for consuming sap ui libs is only invoked once
+		//sap resources are loaded in browser
+			sap.ui.getCore().attachInit(function(){
+				
+				sap.ui.define(["cap/fin/ar/localService/mockserver"],function(mockserver){
+					mockserver.anubhavMimicData();
+					sap.ushell.Container.createRenderer().placeAt("myjs");	
+				});
+				
+			});
+		</script>
+        	
+		
 	</head>
 	<body class="sapUiBody">
-		<div id="content"></div>
+		<div id="myjs"></div>
+		<div id="myBtn"></div>
 	</body>
 </html>

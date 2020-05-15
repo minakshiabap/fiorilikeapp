@@ -57,6 +57,9 @@ sap.ui.define([
 		onSearch: function(oEvent){
 			//Step 1: Read the value user type in search field
 			var sVal = oEvent.getParameter("query");
+			if(!sVal){
+				sVal = this.getView().byId("mySearch").getValue();
+			}
 			//Step 2: Get the list Object
 			var oList = this.getView().byId("idLedo");
 			//Step 3: Get the items agg. of list
