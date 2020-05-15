@@ -5,7 +5,7 @@
       "path": "/sap/opu/odata",
       "target": {
         "type": "destination",
-        "name": "NS4",
+        "name": "S4HANA",
         "entryPath": "/sap/opu/odata"
       },
       "description": "The game is mine"

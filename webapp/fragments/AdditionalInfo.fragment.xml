@@ -12,13 +12,13 @@
 	<f:SimpleForm>
 		<f:content>
 			<Label text="Supplier Id"></Label>
-			<Text text="{ToSupplier/BP_ID}"></Text>
+			<Text text="{ToSupplier/BpId}"></Text>
 			<Label text="Supplier Name"></Label>
-			<Text text="{ToSupplier/COMPANY_NAME}"></Text>
+			<Text text="{ToSupplier/CompanyName}"></Text>
 			<Label text="Address"></Label>
-			<Text text="{ToSupplier/STREET},{ToSupplier/BUILDING}"></Text>
+			<Text text="{ToSupplier/Street},{ToSupplier/Building}"></Text>
 			<Label text="Location"></Label>
-			<Text text="{ToSupplier/CITY},{ToSupplier/COUNTRY}"></Text>
+			<Text text="{ToSupplier/City},{ToSupplier/Country}"></Text>
 		</f:content>
 	</f:SimpleForm>
 </core:FragmentDefinition>

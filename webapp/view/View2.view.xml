@@ -2,11 +2,11 @@
 	<Page title="View 2" navButtonPress="onBack" showNavButton="true">
 		<content>
 			<!--<Button text="Back" press="onBack"/>-->
-			<ObjectHeader id="wow" title="{NAME}" 
-							intro="{DESCRIPTION}" number="{PRICE}" numberUnit="{CURRENCY_CODE}">
+			<ObjectHeader id="wow" title="{Name}" 
+							intro="{Description}" number="{Price}" numberUnit="{CurrencyCode}">
 				<attributes>
-					<ObjectAttribute title="type" text="{PRODUCT_ID}"></ObjectAttribute>
-					<ObjectAttribute title="available?" text="{DIM_UNIT}" ></ObjectAttribute>
+					<ObjectAttribute title="type" text="{ProductId}"></ObjectAttribute>
+					<ObjectAttribute title="available?" text="{DimUnit}" ></ObjectAttribute>
 				</attributes>
 			</ObjectHeader>
 			<IconTabBar>

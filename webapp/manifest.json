@@ -16,8 +16,8 @@
 		},
 		"ach": "FIN-ACC-AR",
 		"dataSources": {
-			"ZMAR_2020_SRV": {
-				"uri": "/sap/opu/odata/sap/ZMAR_2020_SRV/",
+			"ZJUN_ODATA_SRV": {
+				"uri": "/sap/opu/odata/sap/ZJUN_ODATA_SRV/",
 				"type": "OData",
 				"settings": {
 					"odataVersion": "2.0",
@@ -87,7 +87,7 @@
 			"": {
 				"type": "sap.ui.model.odata.v2.ODataModel",
 				"settings": {},
-				"dataSource": "ZMAR_2020_SRV",
+				"dataSource": "ZJUN_ODATA_SRV",
 				"preload": true
 			}
 		},
