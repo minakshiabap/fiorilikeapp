@@ -6,7 +6,7 @@ sap.ui.define(
 			anubhavMimicData: function(){
 				// Create object of mock server and inform about Odata Uri which is to be used for mocking
 				var oMockServer = new MockServer({
-					rootUri: "/sap/opu/odata/sap/ZMAR_2020_SRV/"	
+					rootUri: "/sap/opu/odata/sap/ZJUN_ODATA_SRV/"	
 				});
 				
 				// Configuration for mocking like if there is a need to auto generate data please do.

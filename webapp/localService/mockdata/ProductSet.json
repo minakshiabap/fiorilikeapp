@@ -1,211 +1,241 @@
 [{
-	"PRODUCT_ID": "Anubhav",
-	"TYPE_CODE": "TYPE_CODE 1",
-	"CATEGORY": "CATEGORY 1",
-	"NAME": "NAME 1",
-	"DESCRIPTION": "DESCRIPTION 1",
-	"SUPPLIER_ID": "SUPPLIER_ID 1",
-	"PRICE": 9.85,
-	"CURRENCY_CODE": "EUR",
-	"DIM_UNIT": "DIM_UNIT 1",
-	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 1",
-	"MIME_TYPE": "MIME_TYPE 1",
+	"ProductId": "Ananya",
+	"TypeCode": "TypeCode 1",
+	"Category": "Category 1",
+	"Name": "Ananya",
+	"Description": "Ananya",
+	"SupplierId": "SupplierId 1",
+	"SupplierName": "SupplierName 1",
+	"TaxTarifCode": 0,
+	"MeasureUnit": "MeasureUnit 1",
+	"WeightMeasure": 9.85,
+	"WeightUnit": "WeightUnit 1",
+	"Price": 416.31,
+	"CurrencyCode": "USD",
+	"Width": 6671.92,
+	"Depth": 2613.6,
+	"Height": 7960.43,
+	"DimUnit": "DimUnit 1",
+	"ProductPicUrl": "ProductPicUrl 1",
+	"HmMime": "HmMime 1",
 	"__metadata": {
-		"uri": "ProductSet('PRODUCT_ID%201')",
-		"type": "ZMAR_2020_SRV.Product"
-	},
-	"ToSupplier": {
-		"__deferred": {
-			"uri": "ProductSet('PRODUCT_ID%201')/ToSupplier"
-		}
+		"uri": "ProductSet('ProductId%201')",
+		"type": "ZJUN_ODATA_SRV.Product"
 	}
 }, {
-	"PRODUCT_ID": "Ananya",
-	"TYPE_CODE": "TYPE_CODE 2",
-	"CATEGORY": "CATEGORY 2",
-	"NAME": "NAME 2",
-	"DESCRIPTION": "DESCRIPTION 2",
-	"SUPPLIER_ID": "SUPPLIER_ID 2",
-	"PRICE": 416.31,
-	"CURRENCY_CODE": "EUR",
-	"DIM_UNIT": "DIM_UNIT 2",
-	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 2",
-	"MIME_TYPE": "MIME_TYPE 2",
+	"ProductId": "Anubhav",
+	"TypeCode": "TypeCode 2",
+	"Category": "Category 2",
+	"Name": "Name 2",
+	"Description": "Anubhav",
+	"SupplierId": "SupplierId 2",
+	"SupplierName": "SupplierName 2",
+	"TaxTarifCode": 0,
+	"MeasureUnit": "MeasureUnit 2",
+	"WeightMeasure": 2584.86,
+	"WeightUnit": "WeightUnit 2",
+	"Price": 5101.49,
+	"CurrencyCode": "USD",
+	"Width": 7638.68,
+	"Depth": 100.85,
+	"Height": 8688.55,
+	"DimUnit": "DimUnit 2",
+	"ProductPicUrl": "ProductPicUrl 2",
+	"HmMime": "HmMime 2",
 	"__metadata": {
-		"uri": "ProductSet('PRODUCT_ID%202')",
-		"type": "ZMAR_2020_SRV.Product"
-	},
-	"ToSupplier": {
-		"__deferred": {
-			"uri": "ProductSet('PRODUCT_ID%202')/ToSupplier"
-		}
+		"uri": "ProductSet('ProductId%202')",
+		"type": "ZJUN_ODATA_SRV.Product"
 	}
 }, {
-	"PRODUCT_ID": "Sakshi",
-	"TYPE_CODE": "TYPE_CODE 3",
-	"CATEGORY": "CATEGORY 3",
-	"NAME": "NAME 3",
-	"DESCRIPTION": "DESCRIPTION 3",
-	"SUPPLIER_ID": "SUPPLIER_ID 3",
-	"PRICE": 6671.92,
-	"CURRENCY_CODE": "EUR",
-	"DIM_UNIT": "DIM_UNIT 3",
-	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 3",
-	"MIME_TYPE": "MIME_TYPE 3",
+	"ProductId": "Sakshi",
+	"TypeCode": "TypeCode 3",
+	"Category": "Category 3",
+	"Name": "Name 3",
+	"Description": "Sakshi",
+	"SupplierId": "SupplierId 3",
+	"SupplierName": "SupplierName 3",
+	"TaxTarifCode": 6,
+	"MeasureUnit": "MeasureUnit 3",
+	"WeightMeasure": 9523.1,
+	"WeightUnit": "WeightUnit 3",
+	"Price": 8078.05,
+	"CurrencyCode": "USD",
+	"Width": 3324.62,
+	"Depth": 591.67,
+	"Height": 4853.71,
+	"DimUnit": "DimUnit 3",
+	"ProductPicUrl": "ProductPicUrl 3",
+	"HmMime": "HmMime 3",
 	"__metadata": {
-		"uri": "ProductSet('PRODUCT_ID%203')",
-		"type": "ZMAR_2020_SRV.Product"
-	},
-	"ToSupplier": {
-		"__deferred": {
-			"uri": "ProductSet('PRODUCT_ID%203')/ToSupplier"
-		}
+		"uri": "ProductSet('ProductId%203')",
+		"type": "ZJUN_ODATA_SRV.Product"
 	}
 }, {
-	"PRODUCT_ID": "Indane",
-	"TYPE_CODE": "TYPE_CODE 4",
-	"CATEGORY": "CATEGORY 4",
-	"NAME": "NAME 4",
-	"DESCRIPTION": "DESCRIPTION 4",
-	"SUPPLIER_ID": "SUPPLIER_ID 4",
-	"PRICE": 2613.6,
-	"CURRENCY_CODE": "EUR",
-	"DIM_UNIT": "DIM_UNIT 4",
-	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 4",
-	"MIME_TYPE": "MIME_TYPE 4",
+	"ProductId": "Navdeep",
+	"TypeCode": "TypeCode 4",
+	"Category": "Category 4",
+	"Name": "Name 4",
+	"Description": "Navdeep",
+	"SupplierId": "SupplierId 4",
+	"SupplierName": "SupplierName 4",
+	"TaxTarifCode": 2,
+	"MeasureUnit": "MeasureUnit 4",
+	"WeightMeasure": 4053.58,
+	"WeightUnit": "WeightUnit 4",
+	"Price": 7495.46,
+	"CurrencyCode": "USD",
+	"Width": 7826.71,
+	"Depth": 3812,
+	"Height": 6152.62,
+	"DimUnit": "DimUnit 4",
+	"ProductPicUrl": "ProductPicUrl 4",
+	"HmMime": "HmMime 4",
 	"__metadata": {
-		"uri": "ProductSet('PRODUCT_ID%204')",
-		"type": "ZMAR_2020_SRV.Product"
-	},
-	"ToSupplier": {
-		"__deferred": {
-			"uri": "ProductSet('PRODUCT_ID%204')/ToSupplier"
-		}
+		"uri": "ProductSet('ProductId%204')",
+		"type": "ZJUN_ODATA_SRV.Product"
 	}
 }, {
-	"PRODUCT_ID": "Shakti",
-	"TYPE_CODE": "TYPE_CODE 5",
-	"CATEGORY": "CATEGORY 5",
-	"NAME": "NAME 5",
-	"DESCRIPTION": "DESCRIPTION 5",
-	"SUPPLIER_ID": "SUPPLIER_ID 5",
-	"PRICE": 7960.43,
-	"CURRENCY_CODE": "EUR",
-	"DIM_UNIT": "DIM_UNIT 5",
-	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 5",
-	"MIME_TYPE": "MIME_TYPE 5",
+	"ProductId": "Sandeep",
+	"TypeCode": "TypeCode 5",
+	"Category": "Category 5",
+	"Name": "Name 5",
+	"Description": "Sandeep",
+	"SupplierId": "SupplierId 5",
+	"SupplierName": "SupplierName 5",
+	"TaxTarifCode": 7,
+	"MeasureUnit": "MeasureUnit 5",
+	"WeightMeasure": 7116.64,
+	"WeightUnit": "WeightUnit 5",
+	"Price": 3189.11,
+	"CurrencyCode": "CurrencyCode 5",
+	"Width": 2884.41,
+	"Depth": 6673.2,
+	"Height": 3050.52,
+	"DimUnit": "DimUnit 5",
+	"ProductPicUrl": "ProductPicUrl 5",
+	"HmMime": "HmMime 5",
 	"__metadata": {
-		"uri": "ProductSet('PRODUCT_ID%205')",
-		"type": "ZMAR_2020_SRV.Product"
-	},
-	"ToSupplier": {
-		"__deferred": {
-			"uri": "ProductSet('PRODUCT_ID%205')/ToSupplier"
-		}
+		"uri": "ProductSet('ProductId%205')",
+		"type": "ZJUN_ODATA_SRV.Product"
 	}
 }, {
-	"PRODUCT_ID": "Sandeep",
-	"TYPE_CODE": "TYPE_CODE 6",
-	"CATEGORY": "CATEGORY 6",
-	"NAME": "NAME 6",
-	"DESCRIPTION": "DESCRIPTION 6",
-	"SUPPLIER_ID": "SUPPLIER_ID 6",
-	"PRICE": 2584.86,
-	"CURRENCY_CODE": "CURRENCY_CODE 6",
-	"DIM_UNIT": "DIM_UNIT 6",
-	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 6",
-	"MIME_TYPE": "MIME_TYPE 6",
+	"ProductId": "ProductId 6",
+	"TypeCode": "TypeCode 6",
+	"Category": "Category 6",
+	"Name": "Name 6",
+	"Description": "Description 6",
+	"SupplierId": "SupplierId 6",
+	"SupplierName": "SupplierName 6",
+	"TaxTarifCode": 2,
+	"MeasureUnit": "MeasureUnit 6",
+	"WeightMeasure": 2114.01,
+	"WeightUnit": "WeightUnit 6",
+	"Price": 865.68,
+	"CurrencyCode": "CurrencyCode 6",
+	"Width": 7131.28,
+	"Depth": 4669.02,
+	"Height": 5584.73,
+	"DimUnit": "DimUnit 6",
+	"ProductPicUrl": "ProductPicUrl 6",
+	"HmMime": "HmMime 6",
 	"__metadata": {
-		"uri": "ProductSet('PRODUCT_ID%206')",
-		"type": "ZMAR_2020_SRV.Product"
-	},
-	"ToSupplier": {
-		"__deferred": {
-			"uri": "ProductSet('PRODUCT_ID%206')/ToSupplier"
-		}
+		"uri": "ProductSet('ProductId%206')",
+		"type": "ZJUN_ODATA_SRV.Product"
 	}
 }, {
-	"PRODUCT_ID": "Rohan",
-	"TYPE_CODE": "TYPE_CODE 7",
-	"CATEGORY": "CATEGORY 7",
-	"NAME": "NAME 7",
-	"DESCRIPTION": "DESCRIPTION 7",
-	"SUPPLIER_ID": "SUPPLIER_ID 7",
-	"PRICE": 5101.49,
-	"CURRENCY_CODE": "CURRENCY_CODE 7",
-	"DIM_UNIT": "DIM_UNIT 7",
-	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 7",
-	"MIME_TYPE": "MIME_TYPE 7",
+	"ProductId": "ProductId 7",
+	"TypeCode": "TypeCode 7",
+	"Category": "Category 7",
+	"Name": "Name 7",
+	"Description": "Description 7",
+	"SupplierId": "SupplierId 7",
+	"SupplierName": "SupplierName 7",
+	"TaxTarifCode": 5,
+	"MeasureUnit": "MeasureUnit 7",
+	"WeightMeasure": 5582.16,
+	"WeightUnit": "WeightUnit 7",
+	"Price": 9889.58,
+	"CurrencyCode": "CurrencyCode 7",
+	"Width": 2209.25,
+	"Depth": 9106.05,
+	"Height": 5632.87,
+	"DimUnit": "DimUnit 7",
+	"ProductPicUrl": "ProductPicUrl 7",
+	"HmMime": "HmMime 7",
 	"__metadata": {
-		"uri": "ProductSet('PRODUCT_ID%207')",
-		"type": "ZMAR_2020_SRV.Product"
-	},
-	"ToSupplier": {
-		"__deferred": {
-			"uri": "ProductSet('PRODUCT_ID%207')/ToSupplier"
-		}
+		"uri": "ProductSet('ProductId%207')",
+		"type": "ZJUN_ODATA_SRV.Product"
 	}
 }, {
-	"PRODUCT_ID": "PRODUCT_ID 8",
-	"TYPE_CODE": "TYPE_CODE 8",
-	"CATEGORY": "CATEGORY 8",
-	"NAME": "NAME 8",
-	"DESCRIPTION": "DESCRIPTION 8",
-	"SUPPLIER_ID": "SUPPLIER_ID 8",
-	"PRICE": 7638.68,
-	"CURRENCY_CODE": "CURRENCY_CODE 8",
-	"DIM_UNIT": "DIM_UNIT 8",
-	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 8",
-	"MIME_TYPE": "MIME_TYPE 8",
+	"ProductId": "ProductId 8",
+	"TypeCode": "TypeCode 8",
+	"Category": "Category 8",
+	"Name": "Name 8",
+	"Description": "Description 8",
+	"SupplierId": "SupplierId 8",
+	"SupplierName": "SupplierName 8",
+	"TaxTarifCode": 7,
+	"MeasureUnit": "MeasureUnit 8",
+	"WeightMeasure": 517.85,
+	"WeightUnit": "WeightUnit 8",
+	"Price": 5272.55,
+	"CurrencyCode": "CurrencyCode 8",
+	"Width": 6084.72,
+	"Depth": 3899.73,
+	"Height": 539.99,
+	"DimUnit": "DimUnit 8",
+	"ProductPicUrl": "ProductPicUrl 8",
+	"HmMime": "HmMime 8",
 	"__metadata": {
-		"uri": "ProductSet('PRODUCT_ID%208')",
-		"type": "ZMAR_2020_SRV.Product"
-	},
-	"ToSupplier": {
-		"__deferred": {
-			"uri": "ProductSet('PRODUCT_ID%208')/ToSupplier"
-		}
+		"uri": "ProductSet('ProductId%208')",
+		"type": "ZJUN_ODATA_SRV.Product"
 	}
 }, {
-	"PRODUCT_ID": "PRODUCT_ID 9",
-	"TYPE_CODE": "TYPE_CODE 9",
-	"CATEGORY": "CATEGORY 9",
-	"NAME": "NAME 9",
-	"DESCRIPTION": "DESCRIPTION 9",
-	"SUPPLIER_ID": "SUPPLIER_ID 9",
-	"PRICE": 100.85,
-	"CURRENCY_CODE": "CURRENCY_CODE 9",
-	"DIM_UNIT": "DIM_UNIT 9",
-	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 9",
-	"MIME_TYPE": "MIME_TYPE 9",
+	"ProductId": "ProductId 9",
+	"TypeCode": "TypeCode 9",
+	"Category": "Category 9",
+	"Name": "Name 9",
+	"Description": "Description 9",
+	"SupplierId": "SupplierId 9",
+	"SupplierName": "SupplierName 9",
+	"TaxTarifCode": 0,
+	"MeasureUnit": "MeasureUnit 9",
+	"WeightMeasure": 6592.09,
+	"WeightUnit": "WeightUnit 9",
+	"Price": 3731.02,
+	"CurrencyCode": "CurrencyCode 9",
+	"Width": 9240,
+	"Depth": 7680,
+	"Height": 5575.25,
+	"DimUnit": "DimUnit 9",
+	"ProductPicUrl": "ProductPicUrl 9",
+	"HmMime": "HmMime 9",
 	"__metadata": {
-		"uri": "ProductSet('PRODUCT_ID%209')",
-		"type": "ZMAR_2020_SRV.Product"
-	},
-	"ToSupplier": {
-		"__deferred": {
-			"uri": "ProductSet('PRODUCT_ID%209')/ToSupplier"
-		}
+		"uri": "ProductSet('ProductId%209')",
+		"type": "ZJUN_ODATA_SRV.Product"
 	}
 }, {
-	"PRODUCT_ID": "PRODUCT_ID 10",
-	"TYPE_CODE": "TYPE_CODE 10",
-	"CATEGORY": "CATEGORY 10",
-	"NAME": "NAME 10",
-	"DESCRIPTION": "DESCRIPTION 10",
-	"SUPPLIER_ID": "SUPPLIER_ID 10",
-	"PRICE": 8688.55,
-	"CURRENCY_CODE": "EUR0",
-	"DIM_UNIT": "DIM_UNIT 10",
-	"PRODUCT_PIC_URL": "PRODUCT_PIC_URL 10",
-	"MIME_TYPE": "MIME_TYPE 10",
+	"ProductId": "ProductId 10",
+	"TypeCode": "TypeCode 10",
+	"Category": "Category 10",
+	"Name": "Name 10",
+	"Description": "Description 10",
+	"SupplierId": "SupplierId 10",
+	"SupplierName": "SupplierName 10",
+	"TaxTarifCode": 8,
+	"MeasureUnit": "MeasureUnit 10",
+	"WeightMeasure": 4212.82,
+	"WeightUnit": "WeightUnit 10",
+	"Price": 2621.15,
+	"CurrencyCode": "USD0",
+	"Width": 4078.77,
+	"Depth": 9244.63,
+	"Height": 6336.84,
+	"DimUnit": "DimUnit 10",
+	"ProductPicUrl": "ProductPicUrl 10",
+	"HmMime": "HmMime 10",
 	"__metadata": {
-		"uri": "ProductSet('PRODUCT_ID%2010')",
-		"type": "ZMAR_2020_SRV.Product"
-	},
-	"ToSupplier": {
-		"__deferred": {
-			"uri": "ProductSet('PRODUCT_ID%2010')/ToSupplier"
-		}
+		"uri": "ProductSet('ProductId%2010')",
+		"type": "ZJUN_ODATA_SRV.Product"
 	}
 }]
