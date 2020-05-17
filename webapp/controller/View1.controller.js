@@ -106,7 +106,7 @@ sap.ui.define([
 		onDelete: function(oEvent){
 			//step 1: get the item to be deleted
 			var oItemToBeDel = oEvent.getParameter("listItem");
-			console.log("i am going to delete " + oItemToBeDel.getTitle());
+			//console.log("i am going to delete " + oItemToBeDel.getTitle());
 			//step 2: get the list object
 			var oList = oEvent.getSource();
 			//step 3: remove this item from the list object

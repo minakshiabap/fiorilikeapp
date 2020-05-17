@@ -60,7 +60,7 @@ sap.ui.define([
 			//step 1: we need to know which item was selected by user
 			var sId = oEvent.getSource().getTitle();
 			var aFilter = [];
-			debugger;
+			//debugger;
 			if(sId.indexOf("Supplier") !== -1){
 				var aItems = oEvent.getParameter("selectedItems");
 				for (var i=0; i<aItems.length; i++) {

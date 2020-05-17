@@ -11,7 +11,7 @@ sap.ui.define([
 	
 
 	opaTest("Check if product search works", function(Given, When, Then) {
-		debugger;
+		//debugger;
 		// Arrangements
 		Given.startAnubhavApp();
 

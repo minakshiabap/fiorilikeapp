@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "cap.fin.ar.fiorilikeapp",
+        "description": "My First Fiori on cloud app",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#fiorilikeapp-Display",
+        "navigationComponentName": "cap.fin.ar",
+        "intentSemanticObject": "fiorilikeapp",
+        "intentAction": "Display",
+        "html5ApplicationName": "fiorilikeapp",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "423aed78-5660-4b0a-8bac-b5239394c25c"
+        ],
+        "contentPackages": [
+            "1940d437-2261-4e84-956d-d597e00121c6"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Anubhav's App",
+        "subtitle": "www.anubhavtrainings.com",
+        "searchKeywords": "Anubhav's App,www.anubhavtrainings.com",
+        "displayIconUrl": "sap-icon://approvals",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

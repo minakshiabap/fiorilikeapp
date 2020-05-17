@@ -81,8 +81,7 @@
 					"defaultBindingMode": "OneTime"
 				},
 				"uri": "i18n/i18n.properties",
-				"preload": true,
-				"async": true
+				"preload": true
 			},
 			"": {
 				"type": "sap.ui.model.odata.v2.ODataModel",
@@ -154,6 +153,10 @@
 	},
 	"sap.platform.abap": {
 		"uri": "/sap/bc/ui5_ui5/sap/zanubhavadvance/webapp",
+		"_version": "1.1.0"
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
 		"_version": "1.1.0"
 	}
 }
