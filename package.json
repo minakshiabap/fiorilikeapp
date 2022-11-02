@@ -6,7 +6,7 @@
     "grunt": "latest"
   },
   "devDependencies": {
-    "@sap/grunt-sapui5-bestpractice-build": "1.3.50"
+    "@sap/grunt-sapui5-bestpractice-build": "1.4.15"
   },
   "author": "anubhav",
   "license": "ISC"
